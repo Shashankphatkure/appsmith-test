@@ -1,0 +1,1 @@
+INSERT INTO public.product ("name","description","price") VALUES ('{{(Table1.newRow || {}).name}}','{{(Table1.newRow || {}).description}}','{{(Table1.newRow || {}).price}}')

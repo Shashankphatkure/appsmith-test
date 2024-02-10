@@ -1,0 +1,1 @@
+UPDATE public.product SET "name"= '{{Table1.updatedRow.name}}', "description"= '{{Table1.updatedRow.description}}', "price"= '{{Table1.updatedRow.price}}' WHERE "id"= {{Table1.updatedRow.id}};

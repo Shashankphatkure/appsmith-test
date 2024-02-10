@@ -1,0 +1,1 @@
+INSERT INTO public.products ("created_at") VALUES ('{{(Table1.newRow || {}).created_at}}')
